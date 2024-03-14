@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELANESAN</title>
+    <link rel="icon" href="resume.png" type="x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+   
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    
+                    <div class="logo-text">ELANESAN K</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="index.jpeg" alt="IMAGE" height="400px">
+                </div>
+                <div class="hero-text">
+                    <h5>Role <span class="input">Founder</span></h5>
+                    <h1>K.ELANESAN B.Tech(AI&ML)</h1>
+                    <br>
+                    <p>Passionate web and AI model developer experienced in building stunning websites and advanced AI solutions. Committed to delivering excellence in user experiences, code efficiency, and innovation, constantly exploring new frameworks and staying up-to-date with industry best practices. Merge creativity, functionality, and performance in high-quality websites.</p>
+                    <div class="btn-group">
+                        <a href="https://forms.gle/xoLMk5Gc76CSKckr5" class="btn">Workshop</a>
+                        <a href="resume.html" class="btn">Check Resume</a>
+                        
+                       
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100076462132622&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/elanesan-kumaravel-829b47223"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/nesu_kutty?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/+916382640212"><i class="fa-brands fa-whatsapp"></i></a>
+                        
+                    </div>
+                </div>
+            
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click",function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+        var typed =new Typed(".input",{
+            strings:["Founder","Innovative Author","Software Developer","Director of Medita - A Learning Platform"],
+            typedSpeed:60,
+            backSpeed:70,
+            loop:true
+        })
+    </script>
+</body>
+</html>
